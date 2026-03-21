@@ -1,0 +1,23 @@
+{
+  "realm": "voice",
+  "enabled": true,
+  "clients": [
+    {
+      "clientId": "v-expose",
+      "enabled": true,
+      "publicClient": true,
+      "directAccessGrantsEnabled": true,
+      "standardFlowEnabled": true,
+      "redirectUris": ["*"],
+      "webOrigins": ["*"]
+    }
+  ],
+  "groups": [
+    {
+      "name": "Provider"
+    },
+    {
+      "name": "Receiver"
+    }
+  ]
+}
